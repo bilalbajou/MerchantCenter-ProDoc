@@ -1,0 +1,1207 @@
+{
+  "sections": [
+    {
+      "id": "home",
+      "title": "",
+      "pages": [
+        {
+          "id": "home",
+          "title": "HOME",
+          "path": "/",
+          "content": {
+            "sections": [
+              {
+                "heading": "Welcome",
+                "content": "Welcome to Google Merchant Center Documentation. This comprehensive guide will help you understand all requirements and processes needed to get your store approved on Google Merchant Center."
+              }
+            ]
+          }
+        },
+        {
+          "id": "purpose-introduction",
+          "title": "Purpose & Introduction",
+          "path": "/docs/purpose-introduction",
+          "content": {
+            "sections": [
+              {
+                "heading": "Purpose of This Documentation",
+                "content": "This documentation provides a complete guide to getting your store approved on Google Merchant Center. It covers all requirements, processes, and best practices."
+              },
+              {
+                "heading": "Introduction to Google Merchant Center",
+                "content": "Google Merchant Center is a platform that allows you to upload your store and product data to Google, making it available to potential customers through Google Shopping and other Google services.",
+                "image": "/images/merchant-center-overview.png",
+                "imageAlt": "Google Merchant Center Next - Overview page showing account setup",
+                "imageCaption": "Google Merchant Center Next interface - Overview page with account setup prompt"
+              }
+            ]
+          }
+        },
+        {
+          "id": "approval-process",
+          "title": "The Approval Process",
+          "path": "/docs/approval-process",
+          "content": {
+            "sections": [
+              {
+                "heading": "Introduction",
+                "content": "Getting your Google Merchant Center account approved is a critical milestone before you can showcase your products on Google Shopping. Understanding the approval process helps you avoid common pitfalls and ensures a smoother path to launching your campaigns."
+              },
+              {
+                "heading": "What Google Reviews",
+                "content": "When you submit your Merchant Center account for approval, Google conducts a comprehensive evaluation of both your website and product data. This review process typically occurs automatically after you complete the initial setup steps, though manual reviews may be triggered in certain cases."
+              },
+              {
+                "heading": "Website Compliance",
+                "content": "Website compliance is the first layer of review. Google's automated systems crawl your website to verify that it meets technical requirements like HTTPS security, mobile responsiveness, and functional navigation. They also check that all mandatory legal pages are present and easily accessible from your website footer."
+              },
+              {
+                "heading": "Product Data Accuracy",
+                "content": "Product data accuracy is scrutinized to ensure the information in your feed matches what's displayed on your website. Google compares product titles, descriptions, prices, availability, and images between your feed and landing pages. Any discrepancies can trigger disapprovals."
+              },
+              {
+                "heading": "Policy Adherence",
+                "content": "Policy adherence is evaluated across all aspects of your business. Google verifies that you're not selling prohibited or restricted products, that your checkout process is transparent, and that customers can complete purchases without unnecessary barriers."
+              },
+              {
+                "heading": "Timeline and Expectations",
+                "content": "The initial account review typically takes between 3 to 7 business days after submission, though some accounts are approved within 24 hours. During this period, Google may request additional verification documents or clarifications about your business."
+              },
+              {
+                "heading": "Review Notifications",
+                "content": "You'll receive notifications through your Merchant Center dashboard and email regarding your approval status. If issues are detected, Google provides specific reasons for disapproval in the Diagnostics section of your account."
+              },
+              {
+                "heading": "Common Approval Requirements",
+                "content": "Non-negotiable requirements that must be met include:",
+                "list": [
+                  "HTTPS security on your entire website",
+                  "Accessible and functional website",
+                  "Clear payment and refund policy",
+                  "Clear shipping policy",
+                  "Clear data and privacy protection policy",
+                  "Compliance with Google's prohibited content policies"
+                ]
+              },
+              {
+                "heading": "Business Legitimacy Verification",
+                "content": "Business legitimacy verification includes confirming your business name, physical or legal address, and contact information. You may be asked to provide a phone number for verification purposes."
+              },
+              {
+                "heading": "Website and Feed Alignment",
+                "content": "Website and feed alignment requires that your Merchant Center account uses the same domain as your website URL. Product landing pages must link directly to the correct product without redirects."
+              },
+              {
+                "heading": "The Review Process Steps",
+                "content": "Follow these steps to complete the approval process:"
+              },
+              {
+                "heading": "Step 1: Complete Account Setup",
+                "content": "Complete all required account setup fields including business information, shipping settings, and tax configuration."
+              },
+              {
+                "heading": "Step 2: Verify Your Website",
+                "content": "Verify and claim your website URL using one of four methods: HTML tag, HTML file upload, Google Analytics, or your e-commerce platform integration."
+              },
+              {
+                "heading": "Step 3: Upload Product Feed",
+                "content": "Upload your product feed with all required attributes properly formatted according to Google's product data specification."
+              },
+              {
+                "heading": "Step 4: Review Policies",
+                "content": "Review and acknowledge Google's shopping policies, including guidelines on prohibited products, data quality, and customer experience."
+              },
+              {
+                "heading": "Step 5: Submit for Review",
+                "content": "Submit your account for review when prompted in your Merchant Center dashboard."
+              },
+              {
+                "heading": "What Happens After Approval",
+                "content": "Once approved, your products become eligible to appear in Google Shopping results. However, approval is not permanent—Google continuously monitors accounts for policy compliance."
+              },
+              {
+                "heading": "Maintaining Your Account",
+                "content": "You must sign in to your Merchant Center account at least once every 14 months to keep it active. Regular monitoring of your product status is essential, as individual products can be disapproved even after initial account approval."
+              },
+              {
+                "heading": "Handling Disapprovals",
+                "content": "If your account or products are disapproved, Google provides detailed explanations in your Diagnostics Hub. Common disapproval reasons include:",
+                "list": [
+                  "Missing or unclear policies",
+                  "Price mismatches between feed and website",
+                  "Insecure website (HTTP instead of HTTPS)",
+                  "Forced account creation during checkout",
+                  "Broken links or incomplete product descriptions"
+                ]
+              },
+              {
+                "heading": "Resolving Disapprovals",
+                "content": "Most disapprovals can be resolved by making the necessary corrections and resubmitting your account or products for review. Price mismatch errors often auto-resolve within 24 hours after Google recrawls your website."
+              },
+              {
+                "heading": "Pre-Submission Checklist",
+                "content": "Before submitting for review, verify that:",
+                "list": [
+                  "All required policies are in place and easily accessible",
+                  "Your website is secure with HTTPS and fully functional across devices",
+                  "Product details and pricing match exactly between your feed and website",
+                  "The checkout process works smoothly without forced registrations",
+                  "You comply with all Google Shopping Ads Policies"
+                ]
+              },
+              {
+                "heading": "Final Notes",
+                "content": "Following these guidelines significantly improves your approval chances, though Google's final decision remains at their discretion based on their policies and automated review systems."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "store-requirements",
+      "title": "STORE REQUIREMENTS (FOUNDATIONS)",
+      "pages": [
+        {
+          "id": "security-mobile",
+          "title": "Security (HTTPS) & Mobile",
+          "path": "/docs/security-mobile",
+          "content": {
+            "sections": [
+              {
+                "heading": "Security Requirements",
+                "content": "Your store must meet Google's security standards to be approved."
+              },
+              {
+                "heading": "HTTPS Requirement",
+                "content": "All pages of your website must use HTTPS encryption:",
+                "list": [
+                  "Valid SSL certificate required",
+                  "All pages must be accessible via HTTPS",
+                  "No mixed content (HTTP resources on HTTPS pages)",
+                  "SSL certificate must be valid and not expired"
+                ]
+              },
+              {
+                "heading": "Mobile Responsiveness",
+                "content": "Your website must be mobile-friendly:",
+                "list": [
+                  "Responsive design that works on all devices",
+                  "Fast loading times on mobile",
+                  "Touch-friendly navigation",
+                  "Readable text without zooming"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "legal-pages-checklist",
+          "title": "Legal Pages (Checklist)",
+          "path": "/docs/legal-pages-checklist",
+          "content": {
+            "sections": [
+              {
+                "heading": "Required Legal Pages",
+                "content": "Your store must have these legal pages clearly accessible."
+              },
+              {
+                "heading": "Legal Pages Checklist",
+                "content": "Verify you have all required pages:",
+                "code": "□ Privacy Policy (complete and accessible)\n□ Terms of Service / Terms and Conditions\n□ Return and Refund Policy\n□ Shipping Policy\n□ Cookie Policy (if applicable)\n□ Legal Notice / Imprint (if required by law)\n□ All pages linked in website footer\n□ Pages are business-specific (not generic templates)\n□ All policies are up-to-date"
+              },
+              {
+                "heading": "Privacy Policy Requirements",
+                "content": "Must include:",
+                "list": [
+                  "Data collection practices",
+                  "How data is used",
+                  "Third-party services",
+                  "Customer rights",
+                  "Contact information"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "navigation-footer",
+          "title": "Navigation & Footer",
+          "path": "/docs/navigation-footer",
+          "content": {
+            "sections": [
+              {
+                "heading": "Navigation Requirements",
+                "content": "Your website navigation must be clear and functional."
+              },
+              {
+                "heading": "Navigation Best Practices",
+                "content": "Ensure your navigation includes:",
+                "list": [
+                  "Clear menu structure",
+                  "Easy access to product categories",
+                  "Search functionality",
+                  "Breadcrumb navigation",
+                  "Logical page hierarchy"
+                ]
+              },
+              {
+                "heading": "Footer Requirements",
+                "content": "Your footer must include:",
+                "list": [
+                  "Contact information",
+                  "Links to legal pages (Privacy, Terms, Returns, Shipping)",
+                  "Business address",
+                  "Business registration information (if applicable)",
+                  "Social media links (recommended)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "checkout-process",
+          "title": "Checkout Process (Cart & Payment)",
+          "path": "/docs/checkout-process",
+          "content": {
+            "sections": [
+              {
+                "heading": "Checkout Requirements",
+                "content": "Your checkout process must meet Google's standards for security and functionality."
+              },
+              {
+                "heading": "Shopping Cart",
+                "content": "Your cart must:",
+                "list": [
+                  "Display all items clearly",
+                  "Show accurate prices",
+                  "Calculate totals correctly",
+                  "Allow easy item removal",
+                  "Show shipping costs before checkout"
+                ]
+              },
+              {
+                "heading": "Payment Processing",
+                "content": "Payment requirements:",
+                "list": [
+                  "Secure payment processing (PCI compliant)",
+                  "Multiple payment methods (credit cards, PayPal, etc.)",
+                  "HTTPS on all payment pages",
+                  "Clear payment terms",
+                  "Order confirmation process"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "structured-data",
+          "title": "Structured Data (Schema.org)",
+          "path": "/docs/structured-data",
+          "content": {
+            "sections": [
+              {
+                "heading": "Structured Data Requirements",
+                "content": "Implementing structured data helps Google understand your products better."
+              },
+              {
+                "heading": "What is Structured Data?",
+                "content": "Structured data is a standardized format for providing information about your products using Schema.org vocabulary."
+              },
+              {
+                "heading": "Required Schema Types",
+                "content": "You should implement:",
+                "list": [
+                  "Product schema",
+                  "Organization schema",
+                  "BreadcrumbList schema",
+                  "Review schema (if applicable)"
+                ]
+              },
+              {
+                "heading": "Benefits",
+                "content": "Structured data helps with:",
+                "list": [
+                  "Rich snippets in search results",
+                  "Better product understanding",
+                  "Enhanced shopping experience",
+                  "Improved visibility"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "brand-logo-requirements",
+          "title": "Brand Logo Requirements",
+          "path": "/docs/brand-logo-requirements",
+          "content": {
+            "sections": [
+              {
+                "heading": "Introduction",
+                "content": "Google Merchant Center requires specific technical and quality standards for business logos that appear in your Shopping ads. Understanding these requirements ensures your logo gets approved quickly and represents your brand effectively across all Google Shopping surfaces."
+              },
+              {
+                "heading": "Logo Format Requirements",
+                "content": "Your logo must meet specific format requirements to be approved by Google Merchant Center."
+              },
+              {
+                "heading": "Square Logos",
+                "content": "Square logos must use a 1:1 aspect ratio with dimensions between 500×500 and 2000×2000 pixels. This format is ideal for mobile displays and compact ad placements where space is limited.",
+                "image": "/images/logo-square-example.svg",
+                "imageAlt": "Example of square logo format (1:1 aspect ratio)",
+                "imageCaption": "Example: Square logo format (1:1 aspect ratio) - 500×500 to 2000×2000 pixels"
+              },
+              {
+                "heading": "Rectangular Logos",
+                "content": "Rectangular logos require a 2:1 aspect ratio with dimensions between 1000×500 and 2000×1000 pixels. The minimum height is 128 pixels, and the width cannot exceed 2000 pixels.",
+                "image": "/images/logo-rectangular-example.svg",
+                "imageAlt": "Example of rectangular logo format (2:1 aspect ratio)",
+                "imageCaption": "Example: Rectangular logo format (2:1 aspect ratio) - 1000×500 to 2000×1000 pixels"
+              },
+              {
+                "heading": "File Format",
+                "content": "File format must be either JPG or PNG. Google recommends uploading both square and rectangular versions to ensure optimal display across all ad formats and placements."
+              },
+              {
+                "heading": "Logo Requirements Summary",
+                "content": "Quick reference for logo requirements:",
+                "list": [
+                  "Square logos: 1:1 aspect ratio, 500×500 to 2000×2000 pixels",
+                  "Rectangular logos: 2:1 aspect ratio, 1000×500 to 2000×1000 pixels",
+                  "Minimum height for rectangular: 128 pixels",
+                  "Maximum width: 2000 pixels",
+                  "File formats: JPG or PNG only",
+                  "Recommended: Upload both square and rectangular versions"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "product-feed",
+      "title": "THE PRODUCT FEED (CATALOG)",
+      "pages": [
+        {
+          "id": "feed-definition",
+          "title": "Feed Definition & Role",
+          "path": "/docs/feed-definition",
+          "content": {
+            "sections": [
+              {
+                "heading": "What is a Product Feed?",
+                "content": "A product feed is a file containing structured information about your products that you submit to Google Merchant Center."
+              },
+              {
+                "heading": "Role of the Feed",
+                "content": "The product feed serves as:",
+                "list": [
+                  "The primary source of product information",
+                  "A way to keep product data synchronized",
+                  "The basis for Google Shopping listings",
+                  "A tool for managing inventory and pricing"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "feed-formats",
+          "title": "Formats & Methods (XML, API...)",
+          "path": "/docs/feed-formats",
+          "content": {
+            "sections": [
+              {
+                "heading": "Feed Formats",
+                "content": "Google Merchant Center supports multiple feed formats and submission methods."
+              },
+              {
+                "heading": "Supported Formats",
+                "content": "You can submit feeds in:",
+                "list": [
+                  "XML (RSS 2.0 or Atom)",
+                  "CSV (Comma-separated values)",
+                  "TSV (Tab-separated values)",
+                  "Google Sheets",
+                  "Content API"
+                ]
+              },
+              {
+                "heading": "Submission Methods",
+                "content": "Methods to submit your feed:",
+                "list": [
+                  "Manual upload",
+                  "Scheduled fetch (via URL)",
+                  "Google Sheets",
+                  "Content API for Shopping"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "required-attributes",
+          "title": "Required Attributes",
+          "path": "/docs/required-attributes",
+          "content": {
+            "sections": [
+              {
+                "heading": "Required Product Attributes",
+                "content": "Every product in your feed must include these required attributes."
+              },
+              {
+                "heading": "Mandatory Attributes",
+                "content": "Required for all products:",
+                "list": [
+                  "id - Unique product identifier",
+                  "title - Product name",
+                  "description - Product description",
+                  "link - URL to product page",
+                  "image_link - URL to product image",
+                  "availability - Stock status (in stock, out of stock, preorder)",
+                  "price - Product price with currency",
+                  "condition - Product condition (new, used, refurbished)"
+                ]
+              },
+              {
+                "heading": "Conditionally Required",
+                "content": "Required for specific product types:",
+                "list": [
+                  "gtin - For products with barcodes",
+                  "brand - For branded products",
+                  "mpn - Manufacturer Part Number (if no GTIN)",
+                  "shipping - Shipping information",
+                  "tax - Tax information"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "recommended-attributes",
+          "title": "Recommended Attributes",
+          "path": "/docs/recommended-attributes",
+          "content": {
+            "sections": [
+              {
+                "heading": "Recommended Attributes",
+                "content": "While not required, these attributes improve your product listings and performance."
+              },
+              {
+                "heading": "Performance Attributes",
+                "content": "Attributes that can improve visibility:",
+                "list": [
+                  "product_type - Product category",
+                  "google_product_category - Google's category taxonomy",
+                  "color - Product color",
+                  "size - Product size",
+                  "material - Product material",
+                  "pattern - Product pattern",
+                  "age_group - Target age group",
+                  "gender - Target gender",
+                  "sale_price - Sale price (if on sale)",
+                  "sale_price_effective_date - Sale period"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "update-frequency",
+          "title": "Update Frequency",
+          "path": "/docs/update-frequency",
+          "content": {
+            "sections": [
+              {
+                "heading": "Feed Update Frequency",
+                "content": "Keeping your product feed updated is crucial for accurate listings."
+              },
+              {
+                "heading": "Update Requirements",
+                "content": "Update your feed:",
+                "list": [
+                  "At least once every 30 days (minimum)",
+                  "Daily updates recommended for active stores",
+                  "Real-time updates for price and availability changes",
+                  "Immediately when products go out of stock"
+                ]
+              },
+              {
+                "heading": "Best Practices",
+                "content": "For optimal performance:",
+                "list": [
+                  "Use scheduled fetch for automatic updates",
+                  "Use Content API for real-time updates",
+                  "Monitor feed freshness",
+                  "Set up automated feed generation"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "example-feed",
+          "title": "Example Feed (XML)",
+          "path": "/docs/example-feed",
+          "content": {
+            "sections": [
+              {
+                "heading": "XML Feed Example",
+                "content": "Here's a complete example of a product feed in XML format."
+              },
+              {
+                "heading": "Sample XML Feed",
+                "content": "Example product feed structure:",
+                "code": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<rss version=\"2.0\" xmlns:g=\"http://base.google.com/ns/1.0\">\n  <channel>\n    <title>My Store Products</title>\n    <link>https://mystore.com</link>\n    <description>Product feed for My Store</description>\n    <item>\n      <g:id>SKU123</g:id>\n      <g:title>Premium Wireless Headphones</g:title>\n      <g:description>High-quality wireless headphones with noise cancellation</g:description>\n      <g:link>https://mystore.com/products/headphones</g:link>\n      <g:image_link>https://mystore.com/images/headphones.jpg</g:image_link>\n      <g:availability>in stock</g:availability>\n      <g:price>299.00 USD</g:price>\n      <g:condition>new</g:condition>\n      <g:brand>Sony</g:brand>\n      <g:gtin>1234567890123</g:gtin>\n      <g:product_type>Electronics > Audio > Headphones</g:product_type>\n    </item>\n  </channel>\n</rss>"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "google-policies",
+      "title": "GOOGLE POLICIES & RULES",
+      "pages": [
+        {
+          "id": "transparency",
+          "title": "Transparency (Price, Stock, Promos)",
+          "path": "/docs/transparency",
+          "content": {
+            "sections": [
+              {
+                "heading": "Transparency Requirements",
+                "content": "Google requires complete transparency in pricing, stock status, and promotions."
+              },
+              {
+                "heading": "Price Transparency",
+                "content": "Price requirements:",
+                "list": [
+                  "Prices in feed must match website exactly",
+                  "Display final price including all fees",
+                  "Clearly show sale prices and original prices",
+                  "No hidden fees or charges",
+                  "Currency must be clearly stated"
+                ]
+              },
+              {
+                "heading": "Stock Transparency",
+                "content": "Stock status must be:",
+                "list": [
+                  "Accurate and up-to-date",
+                  "Updated in real-time",
+                  "Clearly marked as in stock, out of stock, or preorder",
+                  "Removed from feed when permanently unavailable"
+                ]
+              },
+              {
+                "heading": "Promotion Transparency",
+                "content": "Promotions must:",
+                "list": [
+                  "Be clearly stated",
+                  "Show valid dates",
+                  "Display terms and conditions",
+                  "Be accurately reflected in feed"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "secure-payment-gdpr",
+          "title": "Secure Payment & GDPR",
+          "path": "/docs/secure-payment-gdpr",
+          "content": {
+            "sections": [
+              {
+                "heading": "Secure Payment Requirements",
+                "content": "Your payment processing must meet security standards."
+              },
+              {
+                "heading": "Payment Security",
+                "content": "Requirements:",
+                "list": [
+                  "PCI DSS compliance",
+                  "HTTPS on all payment pages",
+                  "Secure payment gateways",
+                  "Encrypted payment data",
+                  "No storage of sensitive payment information"
+                ]
+              },
+              {
+                "heading": "GDPR Compliance",
+                "content": "If serving EU customers, you must comply with GDPR:",
+                "list": [
+                  "Clear privacy policy",
+                  "Consent for data collection",
+                  "Right to access and delete data",
+                  "Data breach notification procedures",
+                  "Data processing agreements with third parties"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "prohibited-products",
+          "title": "Prohibited Products & Content",
+          "path": "/docs/prohibited-products",
+          "content": {
+            "sections": [
+              {
+                "heading": "Prohibited Products",
+                "content": "Google does not allow certain products and content on Merchant Center."
+              },
+              {
+                "heading": "Prohibited Items",
+                "content": "The following are not allowed:",
+                "list": [
+                  "Counterfeit or replica products",
+                  "Dangerous products (weapons, explosives)",
+                  "Regulated products without authorization",
+                  "Adult content",
+                  "Products enabling dishonest behavior",
+                  "False or misleading claims",
+                  "Products violating intellectual property",
+                  "Tobacco and related products",
+                  "Alcohol (in some regions)"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "shipping-returns",
+          "title": "Requirements (Shipping & Returns)",
+          "path": "/docs/shipping-returns",
+          "content": {
+            "sections": [
+              {
+                "heading": "Shipping Requirements",
+                "content": "Your shipping policy must be clear and comprehensive."
+              },
+              {
+                "heading": "Shipping Policy Must Include",
+                "content": "Required information:",
+                "list": [
+                  "Available shipping methods",
+                  "Shipping costs and fees",
+                  "Estimated delivery times",
+                  "Shipping destinations",
+                  "Processing time",
+                  "International shipping options (if applicable)",
+                  "Tracking information"
+                ]
+              },
+              {
+                "heading": "Return Policy Requirements",
+                "content": "Return policy must specify:",
+                "list": [
+                  "Return time frame",
+                  "Return conditions",
+                  "Refund processing time",
+                  "Return shipping costs",
+                  "Restocking fees (if any)",
+                  "Non-returnable items",
+                  "How to initiate returns"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "diagnostics-errors",
+      "title": "DIAGNOSTICS & ERRORS",
+      "pages": [
+        {
+          "id": "verification-tools",
+          "title": "Verification Tools",
+          "path": "/docs/verification-tools",
+          "content": {
+            "sections": [
+              {
+                "heading": "Verification Tools",
+                "content": "Use these tools to verify your store and feed before submission."
+              },
+              {
+                "heading": "Google Tools",
+                "content": "Available verification tools:",
+                "list": [
+                  "Rich Results Test - Test structured data",
+                  "Mobile-Friendly Test - Check mobile responsiveness",
+                  "PageSpeed Insights - Check site speed",
+                  "Google Search Console - Monitor site health",
+                  "Merchant Center Diagnostics - Check feed errors"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "pre-submission-checklist",
+          "title": "Pre-Submission Checklist",
+          "path": "/docs/pre-submission-checklist",
+          "content": {
+            "sections": [
+              {
+                "heading": "Pre-Submission Checklist",
+                "content": "Complete this checklist before submitting your store for approval."
+              },
+              {
+                "heading": "Website Checklist",
+                "code": "□ HTTPS enabled on all pages\n□ Mobile-responsive design\n□ All legal pages present and complete\n□ Contact information visible\n□ Working checkout process\n□ Secure payment processing\n□ Structured data implemented"
+              },
+              {
+                "heading": "Product Feed Checklist",
+                "code": "□ All required attributes present\n□ Prices match website\n□ Images are high quality\n□ Stock status is accurate\n□ Feed format is correct\n□ Feed is accessible via URL or API"
+              },
+              {
+                "heading": "Policy Compliance Checklist",
+                "code": "□ Privacy policy complete\n□ Terms of service complete\n□ Return policy complete\n□ Shipping policy complete\n□ All policies accessible\n□ No prohibited products"
+              }
+            ]
+          }
+        },
+        {
+          "id": "price-mismatch-errors",
+          "title": "Price Mismatch Errors",
+          "path": "/docs/price-mismatch-errors",
+          "content": {
+            "sections": [
+              {
+                "heading": "Price Mismatch Errors",
+                "content": "Price mismatch errors occur when prices in your feed don't match your website."
+              },
+              {
+                "heading": "Common Causes",
+                "content": "Price mismatches can be caused by:",
+                "list": [
+                  "Different currency formats",
+                  "Including/excluding taxes inconsistently",
+                  "Sale prices not updated",
+                  "Regional pricing differences",
+                  "Manual entry errors"
+                ]
+              },
+              {
+                "heading": "How to Fix",
+                "content": "Solutions:",
+                "list": [
+                  "Ensure feed prices match website exactly",
+                  "Use same currency format",
+                  "Include taxes consistently",
+                  "Update prices in real-time",
+                  "Use automated price synchronization"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "image-errors",
+          "title": "Image Errors",
+          "path": "/docs/image-errors",
+          "content": {
+            "sections": [
+              {
+                "heading": "Image Errors",
+                "content": "Common image errors and how to fix them."
+              },
+              {
+                "heading": "Common Image Errors",
+                "content": "Issues to watch for:",
+                "list": [
+                  "Images too small (minimum 100x100 pixels)",
+                  "Images not accessible (404 errors)",
+                  "Images not using HTTPS",
+                  "Watermarked images",
+                  "Images showing wrong product",
+                  "Missing main product image"
+                ]
+              },
+              {
+                "heading": "Image Requirements",
+                "content": "Images must:",
+                "list": [
+                  "Be at least 100x100 pixels (larger recommended)",
+                  "Use HTTPS URLs",
+                  "Show actual product",
+                  "Have white or transparent background",
+                  "Be high quality and clear",
+                  "Be accessible 24/7"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "availability-errors",
+          "title": "Availability Errors",
+          "path": "/docs/availability-errors",
+          "content": {
+            "sections": [
+              {
+                "heading": "Availability Errors",
+                "content": "Availability errors occur when stock status is inaccurate."
+              },
+              {
+                "heading": "Common Issues",
+                "content": "Problems include:",
+                "list": [
+                  "Products marked 'in stock' but unavailable",
+                  "Out of stock items not updated",
+                  "Incorrect availability status",
+                  "Preorder items not marked correctly"
+                ]
+              },
+              {
+                "heading": "Solutions",
+                "content": "Fix availability errors by:",
+                "list": [
+                  "Synchronizing stock status in real-time",
+                  "Updating feed immediately when stock changes",
+                  "Using correct availability values",
+                  "Removing permanently unavailable products"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "gtin-errors",
+          "title": "GTIN (Identifier) Errors",
+          "path": "/docs/gtin-errors",
+          "content": {
+            "sections": [
+              {
+                "heading": "GTIN Errors",
+                "content": "GTIN (Global Trade Item Number) errors can prevent product approval."
+              },
+              {
+                "heading": "GTIN Requirements",
+                "content": "GTINs are required for:",
+                "list": [
+                  "Products with barcodes (UPC, EAN, ISBN)",
+                  "Branded products",
+                  "Products sold by multiple retailers"
+                ]
+              },
+              {
+                "heading": "Common GTIN Errors",
+                "content": "Issues include:",
+                "list": [
+                  "Invalid GTIN format",
+                  "GTIN doesn't match product",
+                  "Missing GTIN for required products",
+                  "Incorrect GTIN type"
+                ]
+              },
+              {
+                "heading": "How to Fix",
+                "content": "Solutions:",
+                "list": [
+                  "Verify GTIN format is correct",
+                  "Ensure GTIN matches product",
+                  "Use manufacturer's official GTIN",
+                  "For custom products, use MPN instead"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "site-verification-errors",
+          "title": "Site Verification Errors",
+          "path": "/docs/site-verification-errors",
+          "content": {
+            "sections": [
+              {
+                "heading": "Site Verification Errors",
+                "content": "Site verification is required to prove you own the website."
+              },
+              {
+                "heading": "Verification Methods",
+                "content": "You can verify using:",
+                "list": [
+                  "HTML file upload",
+                  "HTML meta tag",
+                  "DNS record",
+                  "Google Analytics",
+                  "Google Tag Manager"
+                ]
+              },
+              {
+                "heading": "Common Verification Issues",
+                "content": "Problems include:",
+                "list": [
+                  "Verification file not accessible",
+                  "Meta tag in wrong location",
+                  "DNS record not propagated",
+                  "Incorrect verification code",
+                  "Website not accessible"
+                ]
+              },
+              {
+                "heading": "Troubleshooting",
+                "content": "To fix verification:",
+                "list": [
+                  "Ensure verification file/tag is accessible",
+                  "Wait for DNS propagation (up to 48 hours)",
+                  "Double-check verification code",
+                  "Ensure website is live and accessible",
+                  "Contact support if issues persist"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "optimization",
+      "title": "OPTIMIZATION (PERFORMANCE)",
+      "pages": [
+        {
+          "id": "optimizing-titles",
+          "title": "Optimizing Titles",
+          "path": "/docs/optimizing-titles",
+          "content": {
+            "sections": [
+              {
+                "heading": "Optimizing Product Titles",
+                "content": "Well-optimized product titles improve visibility and click-through rates."
+              },
+              {
+                "heading": "Title Best Practices",
+                "content": "Effective titles should:",
+                "list": [
+                  "Be 50-70 characters long",
+                  "Include brand name",
+                  "Include key product features",
+                  "Use relevant keywords",
+                  "Be clear and descriptive",
+                  "Avoid keyword stuffing",
+                  "Use title case formatting"
+                ]
+              },
+              {
+                "heading": "Title Structure",
+                "content": "Good title format: Brand + Product Type + Key Features",
+                "code": "Example: \"Sony WH-1000XM4 Wireless Noise Cancelling Headphones\""
+              }
+            ]
+          }
+        },
+        {
+          "id": "optimizing-descriptions",
+          "title": "Optimizing Descriptions",
+          "path": "/docs/optimizing-descriptions",
+          "content": {
+            "sections": [
+              {
+                "heading": "Optimizing Product Descriptions",
+                "content": "Product descriptions should be informative and compelling."
+              },
+              {
+                "heading": "Description Best Practices",
+                "content": "Effective descriptions:",
+                "list": [
+                  "Are 500-1000 characters (minimum 100)",
+                  "Include key features and benefits",
+                  "Use natural language",
+                  "Include relevant keywords",
+                  "Highlight unique selling points",
+                  "Are accurate and truthful",
+                  "Answer common customer questions"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "optimizing-images",
+          "title": "Optimizing Images",
+          "path": "/docs/optimizing-images",
+          "content": {
+            "sections": [
+              {
+                "heading": "Optimizing Product Images",
+                "content": "High-quality images significantly impact conversion rates."
+              },
+              {
+                "heading": "Image Optimization Tips",
+                "content": "Best practices:",
+                "list": [
+                  "Use high resolution (at least 800x800 pixels)",
+                  "Square aspect ratio (1:1) preferred",
+                  "White or transparent background",
+                  "Show product from multiple angles",
+                  "Include lifestyle images",
+                  "Optimize file size for fast loading",
+                  "Use descriptive file names",
+                  "Include alt text"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "reviews-ctr",
+          "title": "Reviews & Click-Through Rate (CTR)",
+          "path": "/docs/reviews-ctr",
+          "content": {
+            "sections": [
+              {
+                "heading": "Reviews and CTR",
+                "content": "Product reviews and click-through rates impact your performance on Google Shopping."
+              },
+              {
+                "heading": "Product Reviews",
+                "content": "Reviews help with:",
+                "list": [
+                  "Building trust with customers",
+                  "Improving conversion rates",
+                  "Better product visibility",
+                  "Rich snippets in search results"
+                ]
+              },
+              {
+                "heading": "Improving Click-Through Rate",
+                "content": "To improve CTR:",
+                "list": [
+                  "Write compelling titles",
+                  "Use high-quality images",
+                  "Competitive pricing",
+                  "Accurate product information",
+                  "Positive reviews",
+                  "Clear value propositions"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "appendix-templates",
+      "title": "APPENDIX & TEMPLATES",
+      "pages": [
+        {
+          "id": "go-no-go-checklist",
+          "title": "\"Go / No-Go\" Checklist",
+          "path": "/docs/go-no-go-checklist",
+          "content": {
+            "sections": [
+              {
+                "heading": "Go / No-Go Checklist",
+                "content": "Use this final checklist to determine if your store is ready for submission."
+              },
+              {
+                "heading": "Go Checklist",
+                "content": "Your store is ready if:",
+                "code": "✓ All legal pages are complete and accessible\n✓ Website uses HTTPS\n✓ Mobile-responsive design\n✓ Contact information is visible\n✓ Checkout process works\n✓ Product feed is complete\n✓ Prices match between feed and website\n✓ Images are high quality\n✓ Stock status is accurate\n✓ No prohibited products\n✓ Structured data implemented\n✓ Shipping and return policies clear"
+              },
+              {
+                "heading": "No-Go Checklist",
+                "content": "Do NOT submit if:",
+                "code": "✗ Missing legal pages\n✗ Website not using HTTPS\n✗ Broken checkout process\n✗ Incomplete product information\n✗ Price mismatches\n✗ Poor quality images\n✗ Inaccurate stock status\n✗ Prohibited products in feed\n✗ No structured data\n✗ Unclear policies"
+              }
+            ]
+          }
+        },
+        {
+          "id": "json-ld-template",
+          "title": "Template: JSON-LD (Product Schema)",
+          "path": "/docs/json-ld-template",
+          "content": {
+            "sections": [
+              {
+                "heading": "JSON-LD Product Schema Template",
+                "content": "Use this template to implement structured data for your products."
+              },
+              {
+                "heading": "Product Schema Template",
+                "content": "Example JSON-LD code:",
+                "code": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org/\",\n  \"@type\": \"Product\",\n  \"name\": \"Product Name\",\n  \"image\": \"https://yourstore.com/images/product.jpg\",\n  \"description\": \"Product description\",\n  \"sku\": \"SKU123\",\n  \"brand\": {\n    \"@type\": \"Brand\",\n    \"name\": \"Brand Name\"\n  },\n  \"offers\": {\n    \"@type\": \"Offer\",\n    \"url\": \"https://yourstore.com/products/product-name\",\n    \"priceCurrency\": \"USD\",\n    \"price\": \"99.99\",\n    \"priceValidUntil\": \"2024-12-31\",\n    \"availability\": \"https://schema.org/InStock\",\n    \"itemCondition\": \"https://schema.org/NewCondition\"\n  },\n  \"aggregateRating\": {\n    \"@type\": \"AggregateRating\",\n    \"ratingValue\": \"4.5\",\n    \"reviewCount\": \"100\"\n  }\n}\n</script>"
+              }
+            ]
+          }
+        },
+        {
+          "id": "legal-notice-template",
+          "title": "Template: Legal Notice / Imprint",
+          "path": "/docs/legal-notice-template",
+          "content": {
+            "sections": [
+              {
+                "heading": "Legal Notice / Imprint Template",
+                "content": "Template for creating a legal notice or imprint page (required in some countries)."
+              },
+              {
+                "heading": "Legal Notice Template",
+                "content": "Basic structure:",
+                "code": "Legal Notice / Imprint\n\nInformation according to § 5 TMG\n\n[Company Name]\n[Legal Business Name]\n[Street Address]\n[City, State, ZIP Code]\n[Country]\n\nContact:\nPhone: [Phone Number]\nEmail: [Email Address]\nWebsite: [Website URL]\n\nRegistration:\nRegister Court: [Court Name]\nRegistration Number: [Registration Number]\n\nVAT ID:\nVAT Identification Number: [VAT Number]\n\nResponsible for content:\n[Name]\n[Address]\n\nDisclaimer:\n[Your disclaimer text]"
+              }
+            ]
+          }
+        },
+        {
+          "id": "return-policy-template",
+          "title": "Template: Return Policy",
+          "path": "/docs/return-policy-template",
+          "content": {
+            "sections": [
+              {
+                "heading": "Return Policy Template",
+                "content": "Template for creating a comprehensive return and refund policy."
+              },
+              {
+                "heading": "Return Policy Template",
+                "content": "Basic structure:",
+                "code": "Return and Refund Policy\n\nLast Updated: [Date]\n\n1. Return Period\nYou have [X] days from the date of purchase to return items.\n\n2. Return Conditions\nItems must be:\n- Unopened and unused\n- In original packaging\n- With all tags attached\n- Accompanied by proof of purchase\n\n3. Return Process\nTo initiate a return:\n1. Contact us at [email/phone]\n2. Provide order number\n3. Receive return authorization\n4. Ship item to [address]\n\n4. Refund Processing\n- Refunds processed within [X] business days\n- Refunded to original payment method\n- Shipping costs non-refundable (unless defective)\n\n5. Exchanges\n[Exchange policy details]\n\n6. Non-Returnable Items\n- [List non-returnable items]\n\n7. Contact\nFor returns, contact:\nEmail: [email]\nPhone: [phone]"
+              }
+            ]
+          }
+        },
+        {
+          "id": "useful-links",
+          "title": "Useful Links",
+          "path": "/docs/useful-links",
+          "content": {
+            "sections": [
+              {
+                "heading": "Useful Links",
+                "content": "Helpful resources for Google Merchant Center."
+              },
+              {
+                "heading": "Official Resources",
+                "content": "Google resources:",
+                "list": [
+                  "Google Merchant Center: https://merchants.google.com",
+                  "Google Shopping Policies: https://support.google.com/merchants",
+                  "Google Search Central: https://developers.google.com/search",
+                  "Schema.org: https://schema.org"
+                ]
+              },
+              {
+                "heading": "Tools",
+                "content": "Useful tools:",
+                "list": [
+                  "Rich Results Test: https://search.google.com/test/rich-results",
+                  "Mobile-Friendly Test: https://search.google.com/test/mobile-friendly",
+                  "PageSpeed Insights: https://pagespeed.web.dev",
+                  "Google Search Console: https://search.google.com/search-console"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
+

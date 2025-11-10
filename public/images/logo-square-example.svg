@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000" height="1000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="1000" fill="#f3f4f6"/>
+  <rect x="50" y="50" width="900" height="900" fill="none" stroke="#9ca3af" stroke-width="4"/>
+  <text x="500" y="400" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="#6b7280" text-anchor="middle">LOGO</text>
+  <text x="500" y="550" font-family="Arial, sans-serif" font-size="60" fill="#6b7280" text-anchor="middle">1:1 Ratio</text>
+  <text x="500" y="650" font-family="Arial, sans-serif" font-size="40" fill="#6b7280" text-anchor="middle">500×500 to 2000×2000px</text>
+</svg>
+
+
