@@ -158,6 +158,7 @@
         }
       ]
     },
+  
     {
       "id": "store-requirements",
       "title": "STORE REQUIREMENTS (FOUNDATIONS)",
@@ -175,6 +176,9 @@
               {
                 "heading": "HTTPS Requirement",
                 "content": "All pages of your website must use HTTPS encryption:",
+                "image": "/images/ssl.jpg",
+                "imageAlt": "HTTPS secured site with valid SSL certificate",
+                "imageCaption": "Ensure your store serves all pages over HTTPS with a valid SSL certificate",
                 "list": [
                   "Valid SSL certificate required",
                   "All pages must be accessible via HTTPS",
@@ -185,6 +189,9 @@
               {
                 "heading": "Mobile Responsiveness",
                 "content": "Your website must be mobile-friendly:",
+                "image": "/images/responsive%20design.jpg",
+                "imageAlt": "Responsive website layout across phone and tablet",
+                "imageCaption": "Design your store to be responsive and mobile-friendly",
                 "list": [
                   "Responsive design that works on all devices",
                   "Fast loading times on mobile",
@@ -347,17 +354,13 @@
               },
               {
                 "heading": "Square Logos",
-                "content": "Square logos must use a 1:1 aspect ratio with dimensions between 500×500 and 2000×2000 pixels. This format is ideal for mobile displays and compact ad placements where space is limited.",
-                "image": "/images/logo-square-example.svg",
-                "imageAlt": "Example of square logo format (1:1 aspect ratio)",
-                "imageCaption": "Example: Square logo format (1:1 aspect ratio) - 500×500 to 2000×2000 pixels"
+                "content": "Square logos must use a 1:1 aspect ratio with dimensions between 500×500 and 2000×2000 pixels. This format is ideal for mobile displays and compact ad placements where space is limited."
+              
               },
               {
                 "heading": "Rectangular Logos",
-                "content": "Rectangular logos require a 2:1 aspect ratio with dimensions between 1000×500 and 2000×1000 pixels. The minimum height is 128 pixels, and the width cannot exceed 2000 pixels.",
-                "image": "/images/logo-rectangular-example.svg",
-                "imageAlt": "Example of rectangular logo format (2:1 aspect ratio)",
-                "imageCaption": "Example: Rectangular logo format (2:1 aspect ratio) - 1000×500 to 2000×1000 pixels"
+                "content": "Rectangular logos require a 2:1 aspect ratio with dimensions between 1000×500 and 2000×1000 pixels. The minimum height is 128 pixels, and the width cannot exceed 2000 pixels."
+            
               },
               {
                 "heading": "File Format",
@@ -955,6 +958,216 @@
                   "Ensure website is live and accessible",
                   "Contact support if issues persist"
                 ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "product-data-spec",
+      "title": "PRODUCT DATA SPECIFICATION",
+      "pages": [
+        {
+          "id": "pds-overview",
+          "title": "On this page",
+          "path": "/docs/product-data-specification",
+          "content": {
+            "sections": [
+              {
+                "heading": "On this page",
+                "list": [
+                  "Before you begin",
+                  "Basic product data",
+                  "Price and availability",
+                  "Product category",
+                  "Product identifiers",
+                  "Detailed product description",
+                  "Shopping campaigns and other configurations",
+                  "Marketplaces",
+                  "Destinations",
+                  "Shipping"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-before-you-begin",
+          "title": "Before you begin",
+          "path": "/docs/product-data-specification/before-you-begin",
+          "content": {
+            "sections": [
+              {
+                "heading": "Before you begin",
+                "content": "Review Merchant Center policies. Ensure site content, pricing, and availability match your data feed and that all URLs are crawlable and use HTTPS."
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-basic-product-data",
+          "title": "Basic product data",
+          "path": "/docs/product-data-specification/basic-product-data",
+          "content": {
+            "sections": [
+              {
+                "heading": "Basic product data",
+                "content": "The product information you submit using these attributes is the foundation for creating successful ads and free listings for your products. Make sure everything you submit is of the quality you'd show to a customer."
+              },
+              {
+                "heading": "Basic Product Data Attributes",
+                "table": {
+                  "headers": ["Attribute", "Required", "Format/Syntax", "Example", "Description"],
+                  "rows": [
+                    ["ID [id]", "Required", "Max 50 characters, valid Unicode", "A2B4", "Your product's unique identifier. Use SKU where possible. Keep ID consistent across updates."],
+                    ["Title [title]", "Required", "Plain text, Max 150 characters", "Mens Pique Polo Shirt", "Product name. Accurately describe product, match landing page. No promotional text or ALL CAPS."],
+                    ["Structured title [structured_title]", "Required (alternative to title)", "Content: Max 150 chars. Digital source type: default | trained_algorithmic_media", "trained_algorithmic_media:\"Stride & Conquer: Original Google Men's Blue & Orange Power Shoes (Size 8)\"", "Use for AI-generated titles. Use one of title or structured_title."],
+                    ["Description [description]", "Required", "Plain text, Max 5000 characters", "Made from 100% organic cotton, this classic red men's polo has a slim fit and signature logo embroidered on the left chest. Machine wash cold; imported.", "Product description. Include only product info. Use formatting for readability."],
+                    ["Structured description [structured_description]", "Required (alternative to description)", "Content: Max 5000 chars. Digital source type: default | trained_algorithmic_media", "trained_algorithmic_media:\"Transform your TV with the effortless power of Google Chromecast...\"", "Use for AI-generated descriptions. Use one of description or structured_description."],
+                    ["Link [link]", "Required", "URL (http/https), RFC 2396 or RFC 1738 compliant", "http://www.example.com/asp/sp.asp?cat=12&id=1030", "Product landing page URL. Use verified domain. No interstitial pages unless legally required."],
+                    ["Image link [image_link]", "Required", "URL (http/https), Formats: JPEG, WebP, PNG, GIF, BMP, TIFF", "http://www.example.com/image1.jpg", "Main product image URL. Must be crawlable. Accurately display product. No watermarks, borders, or placeholders. AI images must retain metadata."],
+                    ["Additional image link [additional_image_link]", "Optional", "URL, Max 2000 characters, Up to 10 images", "http://www.example.com/image1.jpg", "Additional product images. May include staging, in-use context, graphics. AI images must retain metadata."],
+                    ["3D model link [virtual_model_link]", "Optional (US only)", "URL (http/https), Max 2000 chars, .gltf or .glb files (≤15MB)", "https://www.google.com/products/xyz.glb", "3D model file link. Textures up to 2K. Direct link to 3D file. Validate before submission."],
+                    ["Mobile link [mobile_link]", "Optional", "URL, Max 2000 alphanumeric characters", "http://www.m.example.com/asp/sp.asp?cat=12&id=1030", "Mobile-optimized landing page (when different from desktop). Must meet same requirements as link."]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-price-availability",
+          "title": "Price and availability",
+          "path": "/docs/product-data-specification/price-and-availability",
+          "content": {
+            "sections": [
+              {
+                "heading": "Price and availability",
+                "content": "These attributes define the price and availability for your products. This information is shown to potential customers in ads and free listings. If your products' prices and availability change often, you'll need to let us know in order to show your products. Check out these tips for keeping your product information fresh."
+              },
+              {
+                "heading": "Price and Availability Attributes",
+                "table": {
+                  "headers": ["Attribute", "Required", "Format/Syntax", "Example", "Description"],
+                  "rows": [
+                    ["Availability [availability]", "Required", "Predefined values: in_stock, out_of_stock, preorder, backorder", "in_stock", "Your product's availability. Accurately submit and match with landing page. Provide availability_date if preorder or backorder."],
+                    ["Availability date [availability_date]", "Required if preorder/backorder", "ISO 8601: YYYY-MM-DDThh:mm[+hhmm] or YYYY-MM-DDThh:mmZ, Max 25 chars", "2016-02-24T11:07+0100", "Date a preordered product becomes available. Use for preorder availability. Value up to one year in the future."],
+                    ["Price [price]", "Required", "Numeric, ISO 4217 currency code", "15.00 USD", "Your product's price. Accurately submit and match with landing page and checkout. Include VAT/GST for all countries except US/Canada. Don't submit price of 0 (except mobile devices with contract)."],
+                    ["Sale price [sale_price]", "Optional", "Numeric, ISO 4217 currency code", "15.00 USD", "Your product's sale price. Submit in addition to price attribute. Accurately match with landing page. Don't use for loyalty prices."],
+                    ["Sale price effective date [sale_price_effective_date]", "Optional", "ISO 8601: YYYY-MM-DDThh:mm[+hhmm]/YYYY-MM-DDThh:mm[+hhmm], Max 51 chars", "2016-02-24T11:07+0100/2016-02-29T23:07+0100", "Date range during which sale price applies. Use with sale_price. Separate start and end date with /. If not provided, sale price always applies."],
+                    ["Cost of goods sold [cost_of_goods_sold]", "Optional", "Numeric, ISO 4217 currency code, use '.' for decimal", "23.00 USD", "Costs associated with sale (material, labor, freight, overhead). Used for reporting insights like gross margin."],
+                    ["Expiration date [expiration_date]", "Optional", "ISO 8601: YYYY-MM-DDThh:mm[+hhmm] or YYYY-MM-DDThh:mmZ, Max 25 chars", "2016-07-11T11:07+0100", "Date product should stop showing. Use date less than 30 days in the future. Note: latency of several hours may occur."],
+                    ["Unit pricing measure [unit_pricing_measure]", "Optional (required by local laws)", "Numerical value + unit (oz, lb, mg, g, kg, floz, pt, qt, gal, ml, cl, l, cbm, in, ft, yd, cm, m, sqft, sqm, ct)", "1.5kg", "Measure and dimension of product as sold (without packaging). Use positive number. For variants: same item_group_id, different values."],
+                    ["Unit pricing base measure [unit_pricing_base_measure]", "Optional (required by local laws)", "Integer (1, 2, 4, 8, 10, 100, 75, 750, 50, 1000) + unit (same as unit_pricing_measure)", "100g", "Base measure for pricing calculation. Use same unit as unit_pricing_measure. Price is used to calculate unit price."],
+                    ["Installment [installment]", "Optional", "Months:amount:downpayment:credit_type (months=integer, amount=ISO 4217, downpayment=ISO 4217 optional, credit_type=finance|lease optional)", "6:30 EUR:199 EUR", "Installment payment plan details. Match with landing page. Price attribute is total upfront price. Not available for Display Ads."],
+                    ["Subscription cost [subscription_cost]", "Optional (permitted categories only)", "period:period_length:amount (period=week|month|year, period_length=integer, amount=ISO 4217)", "month:12:35.00USD", "Monthly/annual payment plan for mobile/wireless or physical goods subscriptions. Must match landing page. Google product category required."],
+                    ["Loyalty program [loyalty_program]", "Optional (AU, JP, UK, DE, FR, CA, MX, BR, US only)", "program_label:tier_label:price:cashback:loyalty_points:member_price_effective_date:shipping_label", "my_loyalty_program:silver:10 USD::10::free_member_shipping", "Member prices, loyalty points, and loyalty shipping. Match with Merchant Center settings. Member prices must be submitted via this attribute, not price or sale_price."],
+                    ["Minimum price [auto_pricing_min_price]", "Optional", "Numeric, ISO 4217 currency code", "15.00 USD", "Lowest price product can be reduced to. Used for sale price suggestions, automated discounts, or dynamic promotions. Helps comply with MAP (minimum advertised price)."],
+                    ["Maximum retail price [maximum_retail_price]", "Optional (India only)", "Numeric, ISO 4217 currency code", "15.00 INR", "Your product's maximum retail price. Accurately submit and match with landing page. Include VAT/GST for all countries except US/Canada."]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-product-category",
+          "title": "Product category",
+          "path": "/docs/product-data-specification/product-category",
+          "content": {
+            "sections": [
+              {
+                "heading": "Product category",
+                "content": "You can use these attributes to organize your advertising campaigns in Google Ads and to override Google's automatic product categorization in specific cases."
+              },
+              {
+                "heading": "Product Category Attributes",
+                "table": {
+                  "headers": ["Attribute", "Required", "Format/Syntax", "Example", "Description"],
+                  "rows": [
+                    ["Google product category [google_product_category]", "Optional", "Value from Google product taxonomy: numerical category ID or full path", "Apparel & Accessories > Clothing > Outerwear > Coats & Jackets or 371", "Google-defined product category. Include only one category, most relevant. Use category ID (recommended) or full path, not both. Specific categories required for alcoholic beverages, mobile devices with contract, gift cards, and physical goods subscriptions."],
+                    ["Product type [product_type]", "Optional", "Max 750 alphanumeric characters", "Home > Women > Dresses > Maxi Dresses", "Product category you define. Include full category path. Only first value used for bidding and reporting in Google Ads Shopping campaigns."]
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-product-identifiers",
+          "title": "Product identifiers",
+          "path": "/docs/product-data-specification/product-identifiers",
+          "content": {
+            "sections": [
+              {
+                "heading": "Product identifiers",
+                "content": "Brand, GTIN, MPN, and identifier_exists determine global matching and visibility."
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-detailed-description",
+          "title": "Detailed product description",
+          "path": "/docs/product-data-specification/detailed-product-description",
+          "content": {
+            "sections": [
+              {
+                "heading": "Detailed product description",
+                "content": "Attributes for condition, adult, multipack, bundles, certifications, apparel variants, measurements, details, and highlights."
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-campaigns-config",
+          "title": "Shopping campaigns and other configurations",
+          "path": "/docs/product-data-specification/shopping-campaigns-and-config",
+          "content": {
+            "sections": [
+              {
+                "heading": "Shopping campaigns and other configurations",
+                "content": "Use ads_redirect, custom labels, promotion_id, lifestyle_image_link, and short_title where applicable."
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-marketplaces",
+          "title": "Marketplaces",
+          "path": "/docs/product-data-specification/marketplaces",
+          "content": {
+            "sections": [
+              {
+                "heading": "Marketplaces",
+                "content": "For multi-seller accounts, submit external_seller_id and related marketplace metadata."
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-destinations",
+          "title": "Destinations",
+          "path": "/docs/product-data-specification/destinations",
+          "content": {
+            "sections": [
+              {
+                "heading": "Destinations",
+                "content": "Control inclusion/exclusion via included_destination, excluded_destination, excluded countries, and pause."
+              }
+            ]
+          }
+        },
+        {
+          "id": "pds-shipping",
+          "title": "Shipping",
+          "path": "/docs/product-data-specification/shipping",
+          "content": {
+            "sections": [
+              {
+                "heading": "Shipping",
+                "content": "Provide shipping costs, speeds, regions, and dimensions/weight when required or overriding account settings."
               }
             ]
           }

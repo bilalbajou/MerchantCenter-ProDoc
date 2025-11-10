@@ -85,7 +85,7 @@ const DocPage = () => {
   }
 
   return (
-    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+    <div className="max-w-6xl mx-3 px-4 sm:px-6 lg:px-8 py-8">
       {/* Breadcrumbs */}
       <nav className="mb-8" aria-label="Breadcrumb">
         <ol className="flex items-center space-x-2 text-sm text-gray-600 dark:text-gray-400">
@@ -121,9 +121,53 @@ const DocPage = () => {
             <h2 className="text-2xl font-semibold text-gray-900 dark:text-white mb-4 mt-8">
               {section.heading}
             </h2>
-            <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-              {section.content}
-            </p>
+            {section.content && (
+              <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
+                {section.content}
+              </p>
+            )}
+            
+            {section.table && (
+              <div className="my-6 overflow-x-auto">
+                <table className="min-w-full divide-y divide-gray-200 dark:divide-gray-700 border border-gray-200 dark:border-gray-700 rounded-lg shadow-sm">
+                  <thead className="bg-gray-50 dark:bg-gray-800">
+                    <tr>
+                      {section.table.headers.map((header, headerIndex) => (
+                        <th
+                          key={headerIndex}
+                          className="px-6 py-3 text-left text-xs font-medium text-gray-500 dark:text-gray-300 uppercase tracking-wider"
+                        >
+                          {header}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody className="bg-white dark:bg-gray-900 divide-y divide-gray-200 dark:divide-gray-700">
+                    {section.table.rows.map((row, rowIndex) => (
+                      <tr
+                        key={rowIndex}
+                        className="hover:bg-gray-50 dark:hover:bg-gray-800 transition-colors"
+                      >
+                        {row.map((cell, cellIndex) => {
+                          // Allow wrapping for Description column (usually last column) and other longer content
+                          const isLastColumn = cellIndex === row.length - 1;
+                          return (
+                            <td
+                              key={cellIndex}
+                              className={`px-6 py-4 text-sm text-gray-700 dark:text-gray-300 ${
+                                isLastColumn ? 'whitespace-normal' : 'whitespace-nowrap'
+                              }`}
+                            >
+                              {cell}
+                            </td>
+                          );
+                        })}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            )}
             
             {section.list && (
               <ul className="list-disc list-inside space-y-2 mb-4 text-gray-700 dark:text-gray-300">

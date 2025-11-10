@@ -41,3 +41,4 @@ console.log('   - public/images/logo-rectangular-example.svg');
 console.log('\n💡 Note: You can convert these SVGs to PNG using an online converter or image editor.');
 
 
+
